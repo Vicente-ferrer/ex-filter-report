@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Relatório de Processos com Filtros
+Este código React é um exemplo de como implementar um filtro simples em um relatório e pode ser usado como base para filtrar diversos tipos de reports. Nesse código, a funcionalidade principal é permitir a filtragem dos processos por ano de início, ano de fim e tipo de processo.
 
-## Getting Started
-
-First, run the development server:
+Primerio, rode o servidor de desenvolvimento com:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Funcionamento:
+Dados: O componente armazena uma lista de processos em um array processos, onde cada processo tem um código, tipo e ano.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Filtros:
 
-## Learn More
+O usuário pode inserir o ano de início e o ano de fim desejados.
+O usuário pode selecionar o tipo de processo ("A", "B", "C" ou todos).
 
-To learn more about Next.js, take a look at the following resources:
+## Filtragem:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A função processosFiltrados utiliza os valores dos filtros para criar uma nova lista contendo apenas os processos que correspondem aos critérios.
+Exibição:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+A tabela processos-tabela é renderizada, exibindo os processos filtrados.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Exemplo de uso:
+Se o usuário inserir "2022" no campo "Ano Início", "2023" no campo "Ano Fim" e selecionar "Tipo A", a tabela exibirá apenas os processos do tipo A que ocorreram entre 2022 e 2023.
