@@ -35,17 +35,17 @@ Se o usuário inserir "2022" no campo "Ano Início", "2023" no campo "Ano Fim" e
 
 ## Autor
 
-<div style="background-color: black; display: flex; justify-content: flex-start; align-items: center; padding: 10px;">
-  <img src="https://avatars.githubusercontent.com/u/61233984?v=4" alt="Foto do Autor" width="150" style="border-radius: 60%; margin-right: 10px;" />
+<div style="background-color: #181818; display: flex; align-items: center; padding: 20px; border-radius: 10px;">
+  <img src="https://avatars.githubusercontent.com/u/61233984?v=4" alt="Foto do Autor" width="100" style="border-radius: 50%; margin-right: 20px;" />
   <div style="color: white;">
-    <p>Vicente de Sousa</p>
-    <p>
-      <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIn" width="20" style="vertical-align: middle;" />
+    <h2 style="margin: 0; font-size: 1.5em;">Vicente de Sousa</h2>
+    <p style="margin: 5px 0;">
+      <img src="https://github.com/Vicente-ferrer/assetsRepository/blob/main/linkedin.png" alt="LinkedIn" width="20" style="vertical-align: middle; margin-right: 5px;" />
       <a href="https://www.linkedin.com/in/vicentedesousa" style="color: white; text-decoration: none;">LinkedIn</a>
     </p>
-    <p>
-      <img src="https://image.flaticon.com/icons/png/512/174/174855.png" alt="Instagram" width="20" style="vertical-align: middle;" />
-      <a href="https://www.instagram.com/vicentesousa__/" style="color: white; text-decoration: none;">Instagram</a>
+    <p style="margin: 5px 0;">
+      <img src="https://github.com/Vicente-ferrer/assetsRepository/blob/main/instagram.png" alt="Instagram" width="20" style="vertical-align: middle; margin-right: 5px;" />
+      <a href="https://www.instagram.com/vicentesousa__/" style="color: white; text-decoration: none;  margin-top: -10px;">Instagram</a>
     </p>
   </div>
 </div>
